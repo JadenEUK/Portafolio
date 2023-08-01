@@ -1,0 +1,27 @@
+:root{
+	--main-background: #0b0c0f;
+	--main-fonts-color: #fff;
+	--main-decor-color:#af1919;
+    --main-header-background:#21252e;
+	--main-font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+html::-webkit-scrollbar{
+    width: 5px;
+    background-color: var(--main-background);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--main-decor-color);
+}
+
+header.bajar{
+    background: transparent;
+    z-index: 5;
+}
+

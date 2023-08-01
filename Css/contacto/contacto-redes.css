@@ -1,0 +1,27 @@
+.contacto__redes--sociales{
+    padding: 10px;
+	display: flex;
+	position: center;
+    align-items: space-around;
+	justify-content:center;
+    
+}
+
+.contacto__redes--sociales a{
+    margin: 10px;
+    font-size: 40px;
+    text-align:center;
+    display: inline-block;
+	color: #fff;
+    transition: .4s;
+}
+
+.contacto__redes--sociales i{
+ cursor: pointer;
+}
+
+
+.contacto__redes--sociales a:hover{
+    color: #af1919;
+	text-shadow: 0 0 20px #af1919;
+}

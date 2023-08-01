@@ -1,0 +1,19 @@
+.jose_lista{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .7s all ease; 
+
+}
+.jose_lista .lista-entrada{
+    transform: translateY(20px);
+    
+}
+
+.jose_lista.visible{
+    opacity: 1;
+    transform: scale(1) translateY(0);
+}
+

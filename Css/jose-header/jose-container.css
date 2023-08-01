@@ -1,0 +1,10 @@
+.jose_container{
+    display: flex;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    justify-content: space-around;
+    backdrop-filter: blur(30px);
+    z-index: 5;
+}

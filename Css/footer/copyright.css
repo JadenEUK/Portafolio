@@ -1,0 +1,26 @@
+footer {
+	width: 100%;
+	height: 100%;
+    background-color: var(--main-header-background);
+}
+
+.copyright {
+	color: #fff;
+	font-size: 1.2rem;
+	line-height: 40px;
+	text-align: center;
+    font-family: var(--main-font-family);
+}
+
+.copyright a{
+	color: #fff;
+	font-size: 1rem;
+	letter-spacing: 1px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.copyright a:hover{
+	color: var(--main-decor-color);
+    background-color: var(--main-header-background);
+}

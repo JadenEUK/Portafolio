@@ -1,0 +1,11 @@
+.jose__descripcion{
+    color: white;
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    margin: 5px auto;
+    padding: 20px 0;
+    width: 50%;
+    line-height: 1.4;
+    position: relative;
+    top: 50px;
+}

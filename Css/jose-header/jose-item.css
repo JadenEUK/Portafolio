@@ -1,0 +1,11 @@
+.jose__item{
+    padding: 15px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    
+
+}
+
+.jose__item:hover{
+    text-shadow: 0px 0px 20px #af1919;
+}

@@ -1,0 +1,29 @@
+.jose__nav{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: white;  
+}
+
+
+.jose__nav:hover{
+    transition: .4s all ease;
+}
+
+.jose__nav::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background-color: #af1919;
+    transform-origin: bottom right;
+    transition: transform .4s ease-out;
+}
+
+.jose__nav:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
