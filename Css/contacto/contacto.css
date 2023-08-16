@@ -1,5 +1,5 @@
 .contacto{
-    background: url('Imagenes/bgc.jpg') no-repeat center / cover;
+    background: url('/Imagenes/bgc.jpg') no-repeat center / cover;
     height: 100vh;
     display: flex;
     width: 100%;
