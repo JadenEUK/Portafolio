@@ -1,7 +1,7 @@
 .sobre__container{
     background: 
     linear-gradient(rgba(24, 27, 34, 0.8), rgba(32, 8, 8, .8)),
-    url(Imagenes/bg-sobre.jpg) no-repeat center / cover;
+    url(/Imagenes/bg-sobre.jpg) no-repeat center / cover;
     height: 100vh;
     width: 100%;
     display: flex;
