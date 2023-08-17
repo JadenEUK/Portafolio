@@ -20,8 +20,5 @@ html::-webkit-scrollbar-thumb{
     background-color: var(--main-decor-color);
 }
 
-header.bajar{
-    background: transparent;
-    z-index: 5;
-}
+
 
